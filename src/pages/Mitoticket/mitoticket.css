@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+#ticket {
+  height: 60vmin;
+}
+#cityName {
+  color: white;
+  text-align: center;
+  padding-top: 10vh;
+  padding-right: 37vw;
+  font-family: "Montserrat", sans-serif;
+}
+.ticketContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ticketCard {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 18vh;
+  padding-left: 20vw;
+  padding-right: 58vw;
+}
+input {
+  position: absolute;
+  top: 42%;
+  left: 21%;
+  width: 7vw;
+  background: transparent;
+  border: none;
+  z-index: 6;
+}
+#cityTicket {
+  color: rgb(255, 254, 152);
+  display: none;
+  z-index: 7;
+  position: absolute;
+  top: 40%;
+  left: 21%;
+  font-size: .9rem;
+  font-weight: 100;
+  font-family: Arial, sans-serif;
+}
+#cityCode {
+  color: white;
+  display: none;
+  z-index: 7;
+  position: absolute;
+  top: 43%;
+  left: 21%;
+  font-size: 1.7rem;
+  font-weight: 100;
+  font-family: "Montserrat", sans-serif;
+}
+.arrow {
+  width: 10vh;
+  height: 10vh;
+}
+#arrowLeft {
+  transform: rotate(180deg);
+  margin-right: 5vw;
+  margin-top: 20vh;
+}
+#arrowRight {
+  margin-left: 4vw;
+  margin-top: 20vh;
+}
+#planet {
+  position: absolute;
+  bottom: 30%;
+  left: 60%;
+  width: 60%;
+}
+.planetAnim {
+  position: absolute;
+  bottom: 5%;
+
+  width: 100%;
+  height: 100%;
+}

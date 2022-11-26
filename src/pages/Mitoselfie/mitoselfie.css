@@ -1,0 +1,37 @@
+.Selfie{
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+    height: 20vw;
+    width: auto;
+}
+
+.upload{
+    margin-top:15vw;
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+    width: 25%;
+    height: 25%;
+    padding-left: 50%;
+    background-color: aqua;
+}
+.upload input{
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+    width: 25vw;
+    height: 25vh;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    font-size: 2.5vw;
+    font-weight: bold;
+    text-align: center;
+}
+.carouselCSS {
+margin-top: 5vw;
+
+margin-bottom: 5vw;
+}

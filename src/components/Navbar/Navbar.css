@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.navBar {
+  position :relative;
+  height: 11vh;
+  width: 70vw;
+
+  background-color: rgba(94, 81, 237, 0.809);
+  display: flex;
+  gap: 10vw;
+  z-index: 100;
+}
+#mitoCard {
+  padding-left: 2vw;
+  opacity: 40%;
+}
+#mitoSelfie {
+  opacity: 40%;
+}
+.navTabs {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.navTabs {
+  margin-top: 20px;
+  font-size: medium;
+  width: auto;
+  height: 20px;
+  font-size: large;
+}
+
+.navTabs:hover {
+  color: rgb(37, 0, 80);
+}

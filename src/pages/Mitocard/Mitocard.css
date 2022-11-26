@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
+.carouselCart {
+margin-top: 6vw;
+margin-left: 3vw;
+margin-right:20vw;
+}
+
+.carteTitre {
+color: white;
+margin: 3vw;
+}
+
+
+.postCard :hover{
+scale:1.5;
+}
+
+.customCart {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.postCardSelected{
+    margin :4vw;
+    align-items: center;
+}
+
+
+.verso {
+    width: 40vw;
+    height:30vw ;
+
+
+
+}
+.cartecontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-left: 3vw;
+  }
+
+
+.textleft {
+    position: absolute;
+    top: 15px;
+    left: 16px;
+    width: 18vw;
+    height: 25vw;
+    
+}
+
+.textright{
+    position:absolute;
+    top: 12vw;
+    right: 4vw;
+    width: 15vw;
+}       
+.textright2{
+    position:absolute;
+    top: 16vw;
+    right: 4vw;
+    width: 15vw;
+}       
+.textright3{
+    position:absolute;
+    top: 22vw;
+    right: 4vw;
+    width: 15vw;
+}   
